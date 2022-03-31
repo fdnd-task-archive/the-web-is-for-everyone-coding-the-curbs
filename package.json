@@ -1,0 +1,33 @@
+{
+  "name": "the-web-is-for-everyone-coding-the-curbs",
+  "version": "1.0.0",
+  "description": " Ontwerp en bouw de Smart Zones pagina van Coding the Curbs ",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4TThys123/the-web-is-for-everyone-coding-the-curbs.git"
+  },
+  "author": "Matthijs Blauw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4TThys123/the-web-is-for-everyone-coding-the-curbs/issues"
+  },
+  "homepage": "https://github.com/M4TThys123/the-web-is-for-everyone-coding-the-curbs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "node-fetch": "^3.2.3",
+    "uuid": "^8.3.2"
+  }
+}
